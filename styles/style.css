@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #212121, #212121 65%, white 50%);
+  background-size: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Avenir;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 120px;
+}
+
+h1 {
+  color: white;
+}
+
+.initial-currency,
+.end-currency {
+  color: white;
+  margin: 20px;
+  width: 80px;
+  border-bottom: 1px solid white;
+}
+
+.initial-currency input,
+.end-currency input {
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  padding: 12px 0;
+  text-align: right;
+  width: 80px;
+  color: white;
+}
+
+.initial-currency input:focus,
+.end-currency input:focus {
+  outline: none;
+}
+
+.initial-currency-type,
+.end-currency-type {
+  color: white;
+  border: none;
+  background-color: transparent;
+  width: 70px;
+  font-size: 18px;
+}
+
+.initial-currency-type select:focus,
+.end-currency-type select:focus {
+  outline: none;
+}
+
+.circle {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 32px;
+  border: 5px solid #212121;
+  border-radius: 100px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  margin-top: -5px;
+}
+
+.end-currency {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.end-currency input {
+  color: black;
+}
+
+.end-currency-type {
+  color: black;
+}
