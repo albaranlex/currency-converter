@@ -26,3 +26,4 @@ function convertCurrency() {
 
 //EVENT LISTENERS
 convertButton.addEventListener("click", convertCurrency);
+currencyInput.addEventListener("change", convertCurrency);

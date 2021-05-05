@@ -94,6 +94,10 @@ button {
   margin: 25px;
 }
 
+button:hover {
+  color: aqua;
+  border-color: aqua;
+}
 .end-currency {
   color: black;
   border-bottom: 1px solid black;
